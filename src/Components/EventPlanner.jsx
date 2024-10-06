@@ -10,11 +10,11 @@ const EventPlanner = () => {
             <section className="description">
                 <p>
                    Plan and organize your events effortlessly with Event Planner. From birthdays to corporate meetings, we've got you covered.
-
-                   <button className='get-started-button'>Get Started</button> 
                 </p>
+
+                <button className="get-started-button">Get Started</button> 
             </section>
-            <section className="event_categories">
+            <section className="events_categories">
                 <ul>
                     <h2>Social Events:</h2>
                     <li>Birthday parties</li>
@@ -44,13 +44,39 @@ const EventPlanner = () => {
                 </ul>
             </section>
             <section className="features">
-                
+                <h2>Features</h2>
+                <ul>
+                    <li>Easy event creation and management</li>
+                    <li>Customizable event templates</li>
+                    <li>Gest list management</li>
+                    <li>Real-time collaboration</li>
+                    <li>Reminders and notifications</li>
+                </ul>
             </section>
             <section className="testimonials">
-
+                <h2>Testimonials</h2>
+                <div className='testimonials'>
+                    <p>"Event Planner make my birthday unforgettable!!!"</p>
+                    <p className='author'>Manuel Perez</p>
+                </div>
+                <div className='testimonials'>
+                    <p>"Event Planner made orgaizing my wedding a breeze. Highly recommended!"</p>
+                    <p className='author'>Emily Johnson</p>
+                </div>
+                <div className='testimonials'>
+                    <p>Event Planner help us bett"er than anyone in each our familiar events."</p>
+                    <p className='author'>Diana Estrada</p>
+                </div>
             </section>
             <section className="contact">
-
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder='
+                    Name' />
+                    <input type="email" placeholder='Email' />
+                    <textarea placeholder='Message'></textarea>
+                    <button className='submit-button'>Send</button>
+                </form>
             </section>
         </div>
 
